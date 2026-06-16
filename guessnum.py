@@ -8,5 +8,7 @@ while True:
     if choix == devine:
         print(f"Félicitations ! Vous avez trouvé le nombre en {tentatives} tentatives.")
         break
+    if choix < devine:
+        print("Trop petit ! Essayez un nombre plus grand.")
 
     
