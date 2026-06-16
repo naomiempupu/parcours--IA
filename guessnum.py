@@ -9,8 +9,9 @@ while not trouve:
     essais += 1
     
 if nombre < cache:
-        print("Le nombre secret est plus grand.")
+        print("Le nombre cache est plus grand.")
 elif nombre > cache:
-        print("Le nombre secret est plus petit.")
+        print("Le nombre cache est plus petit.")
 else:
         print("Bravo ! Vous avez trouvé le nombre.")
+        print("Nombre à assaiyer:", essais)
