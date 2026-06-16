@@ -15,3 +15,4 @@ elif nombre > cache:
 else:
         print("Bravo ! Vous avez trouvé le nombre.")
         print("Nombre à assaiyer:", essais)
+        trouve = True
