@@ -10,5 +10,8 @@ while True:
         break
     if choix < devine:
         print("Trop petit ! Essayez un nombre plus grand.")
+    else:
+        print("Trop grand ! Essayez un nombre plus petit.")
+
 
     
