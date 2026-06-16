@@ -12,3 +12,5 @@ if nombre < cache:
         print("Le nombre secret est plus grand.")
 elif nombre > cache:
         print("Le nombre secret est plus petit.")
+else:
+        print("Bravo ! Vous avez trouvé le nombre.")
